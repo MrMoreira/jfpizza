@@ -1,0 +1,41 @@
+@import url(/Assets/Css/root.css);
+
+/*
+    <footer class="footer">
+        <div class="logo">
+            <img src="/Assets/img/logo.png" alt="logo">
+        </div>
+        <div>
+            <!--Contatos and tell-->
+            <div class="contatos">
+                <h3>Contatos</h3>
+                <p>Telefone: (11) 4002-8922</p>
+                <p>Email: papa@Jhoson.com </p>
+        </div>
+        <div class="social">
+            <h3>Redes Sociais</h3>
+            <a href="https://www.facebook.com/"><img src="/Assets/img/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/"><img src="/Assets/img/instagram.png" alt="instagram"></a>
+            <a href="https://www.twitter.com/"><img src="/Assets/img/twitter.png" alt="twitter">
+            </a>
+    </footer>
+*/
+.footer {
+    background-color: var(--main-color);
+    color: var(--text2-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
