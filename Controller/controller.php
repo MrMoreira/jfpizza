@@ -6,23 +6,21 @@ require "View/view.php";
 class Controller{
 
     public function __construct(){
-        $this->model = new Model();]
         $this->view = new View();
+        $this->model = new Model();
     }
 
-    public function index(){
-        $modelo = new Model();
-        $visao = new View();
 
-        $string = $modelo->get_string();
-        $visao->renderizador($string);
+    public function navbar(){
+        $this->view->navbar();
     }
 
-    public function form(){
-        $modelo = new Model();
-        $visao = new View();
-        $string = $modelo->get_get_form();
-        $visao->renderiza_form_login($string);
+    public function footer(){
+        $this->view->footer();
+    }
+
+    public function indexContent(){
+        $this->view->indexContent();
     }
 }
 ?>

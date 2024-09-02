@@ -11,8 +11,20 @@ class View{
     }
 
     public function navbar(){
-        include "Assets/Template/navbar.php";
-    }C:\Users\unifai\Downloads\Pizza\Assets\Template
+        echo "<link rel='stylesheet' href='Assets/Css/navbar.css'>";
+        echo "<link rel='stylesheet' href='Assets/Css/root.css'>";
+        require "Assets/Template/navbar.php";
+
+    }
+
+    public function footer(){
+        echo "<link rel='stylesheet' href='Assets/Css/footer.css'>";
+        require "Assets/Template/footer.php";
+    }
+
+    public function indexContent(){
+        require "Assets/Template/index.php";
+    }
 
 }
 
