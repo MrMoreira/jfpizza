@@ -23,6 +23,8 @@ class View{
     }
 
     public function indexContent(){
+        echo "<link rel='stylesheet' href='Assets/Css/index.css'>";
+        require "Assets/Template/";
         require "Assets/Template/index.php";
     }
 
